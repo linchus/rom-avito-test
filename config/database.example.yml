@@ -1,0 +1,13 @@
+default: &default
+  scheme: postgres
+  encoding: unicode
+  host: localhost
+  pool: 5
+
+development:
+  <<: *default
+  path: /avito_development
+
+test:
+  <<: *default
+  path: /avito_test

@@ -1,0 +1,5 @@
+.DS_Store
+.rspec-local
+.overcommit.yml
+config/database.yml
+log/**

@@ -1,0 +1,12 @@
+AllCops:
+  Include:
+    - '**/config.ru'
+  Exclude:
+    - 'db/**/*'
+    - 'vendor/**/*'
+
+Documentation:
+  Enabled: false
+
+Metrics/LineLength:
+  Max: 110
